@@ -267,7 +267,38 @@ label {
     px;
    }
 
-   @media only screen and (max-width: 1000px) {
+   @media only screen and (max-width: 980px) {
+    .main-info, .portfolio-box, .contact-box, .nav {
+        width: 480px;
+    }
+
+    #bio-photo{
+        float: none;
+    }
+
+    header a, a:active {
+        padding: 0.07em 0.3em 0.07em 0.3em;
+        font-size: 15px;
+      
+    }
+
+    .nav-item:not(:first-child):before {
+        border-right: 1px solid #4aaaa5;
+    }
+    
+
+    h1 {
+        padding: 14px 0.5em 14px 0.5em;
+        font-size: 20px;
+    }
+
+    header {
+        height: 50px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 768px) {
     .main-info, .portfolio-box, .contact-box, .nav {
         width: 480px;
     }
