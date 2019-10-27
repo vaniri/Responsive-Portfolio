@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <nav class="nav">
+            <h1>Irina Vakurova</h1>
+            <ul id="nav-bar">
+                <li class="nav-item"><a href="index.html">About</a></li>
+                <li class="nav-item"> <a id="portfolio" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="clear-fix"></div>
+        </nav>
+    </header>
+
+    <!-- Input Section -->
+
+    <div class="contact-box main-content-window bot-right">
+        <h2>Contact</h2>
+        <hr>
+        <form action="/action_page.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name.."><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Your email.."><br>
+            <label for="message-window">Message:</label>
+            <textarea id="message-window" name="message" placeholder=""></textarea><br>
+            <input type="submit" id="submit-button" value="Submit">
+        </form>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>Copyright &copy;</footer>
+
+    <!-- Workaround Google Chrome bug: 
+            https://bugs.chromium.org/p/chromium/issues/detail?id=332189  search for comment 20-->
+    <script> </script>
+</body>
+
+</html>
